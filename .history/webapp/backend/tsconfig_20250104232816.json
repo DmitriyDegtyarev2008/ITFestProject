@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES6",                    // Цель компиляции: ES6 (можно выбрать ES5 для старых браузеров)
+    "module": "CommonJS",                // Модульная система: CommonJS (подходит для Node.js)
+    "outDir": "./dist",                  // Папка для вывода скомпилированных файлов
+    "rootDir": "./src",                  // Корневая директория исходных файлов
+    "strict": true,                      // Включение всех строгих проверок
+    "esModuleInterop": true,             // Включение поддержки импорта ES6 модулей в CommonJS
+    "skipLibCheck": true,                // Пропуск проверки типов в файлах библиотеки для ускорения сборки
+    "forceConsistentCasingInFileNames": true,  // Принудительное соблюдение регистров в именах файлов
+    "resolveJsonModule": true,           // Поддержка импорта JSON файлов
+    "noImplicitAny": true,               // Отключение неявного типа `any`
+    "noEmit": false,                     // Включение/выключение процесса компиляции
+    "isolatedModules": true,             // Для поддержки модуляции (например, для использования в Babel)
+    "moduleResolution": "node",          // Способ разрешения модулей (на основе Node.js)
+    "lib": ["es6", "dom"],               // Подключение библиотек: ES6 и DOM для браузеров
+    "allowJs": false,                    // Запрещает использование JavaScript файлов в проекте TypeScript
+    "declaration": true,                 // Создание файлов .d.ts для типов
+    "declarationMap": true,              // Создание карт для файлов деклараций
+    "sourceMap": true                    // Генерация карт исходного кода для дебаггинга
+  },
+  "include": [
+    "src/**/*.ts"                        // Включение всех файлов TypeScript из папки src
+  ],
+  "exclude": [
+    "node_modules",                      // Исключение папки node_modules
+    "dist"                               // Исключение папки dist (папка скомпилированных файлов)
+  ]
+}

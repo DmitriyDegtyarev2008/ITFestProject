@@ -1,0 +1,127 @@
+body {
+  width: 100%;
+  /* position: absolute; */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.sidebarHeader {
+  text-align: center;
+  border-bottom: 1px solid #34495e;
+  font-size: 1.5rem;
+}
+
+.logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.sidebarNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarNav li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.sidebarNav li a:hover {
+  background-color: #34495e;
+}
+
+.sidebarNav li a i {
+  margin-right: 10px;
+}
+
+.sidebarFooter {
+  margin-top: auto;
+  padding: 20px;
+  border-top: 1px solid #34495e;
+}
+
+.profileLink {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.profilePic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* MAIN */
+
+.main {
+  flex-grow: 1;
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.header {
+ disp
+  border-radius: 10px;
+  fill: #6a1b9a;
+}
+
+.head__title h2 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 40px;
+  color: #fff;
+}
+
+.leave__btn {
+  width: 176px;
+  height: 38px;
+  background: #24052c;
+}
+
+.leave__btn span {
+  font-family: var(--second-family);
+  font-style: italic;
+  font-weight: 600;
+  font-size: 27px;
+  color: #fff;
+}
+
+.main__body {
+}
+
+.main__title {
+}
+
+.edit__btn {
+}
+
+.main__body {
+}

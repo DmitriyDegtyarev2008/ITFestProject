@@ -1,0 +1,62 @@
+body {
+  width: 100%;
+  /* position: absolute; */
+}
+
+.main {
+  height: 1464px;
+  width: 500px;
+  background-color: #24052c;
+}
+
+.SpaceDom {
+  font-size: 30px;
+  color: white;
+  font-style: italic;
+  margin-left: 20px;
+}
+
+.personalcabinet {
+  width: 1220px;
+  height: 92px;
+  background-color: #6a1b9a;
+  margin-left: 600px;
+  border-radius: 10px 10px 10px 10px;
+  margin-top: -100px;
+  font-style: italic;
+}
+
+.textik {
+  color: #fff;
+  font-size: 40px;
+  margin-left: 50px;
+  padding-top: 20px;
+}
+
+.LEAVE {
+  display: flex;
+  /* position: relative; */
+  margin-top: -38px;
+  align-items: center;
+  background-color: #24052c;
+  color: #fff;
+  font-size: xx-large;
+  margin-left: 50em;
+  font-style: italic;
+  width: 176px;
+  height: 38px;
+}
+
+.novir {
+  background-color: black;
+  border-radius: 200px;
+  width: 350px;
+  height: 350px;
+}
+
+.secondly {
+  font-style: italic;
+  font-size: 30px;
+  color: #fff;
+  gap: 10px;
+}

@@ -1,0 +1,177 @@
+body {
+  width: 100%;
+  /* position: absolute; */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #2c3e50;
+  color: white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  padding: 20px;
+}
+
+.sidebarHeader {
+  text-align: center;
+  border-bottom: 1px solid #34495e;
+  font-size: 0.9rem;
+}
+
+.logo {
+  width: 50px;
+  margin-bottom: 10px;
+}
+
+.sidebarNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebarNav li a {
+  color: white;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.sidebarNav li a:hover {
+  background-color: #34495e;
+}
+
+.sidebarNav li a i {
+  margin-right: 10px;
+}
+
+.sidebarFooter {
+  margin-top: auto;
+  padding: 20px;
+  border-top: 1px solid #34495e;
+}
+
+.profileLink {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+.profilePic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+/* MAINCONTENT */
+
+.mainContent {
+  flex-grow: 1;
+  margin-left: 250px;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  top: 25px;
+  justify-content: space-between;
+  align-items: center;
+  background: #6a1b9a;
+  border-radius: 10px;
+  fill: #6a1b9a;
+}
+
+.main__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+}
+
+.head__title h2 {
+  font-family: var(--second-family);
+  font-weight: 600;
+  font-size: 30px;
+  color: #fff;
+}
+
+.leave__btn {
+  width: 176px;
+  height: 38px;
+}
+
+.leave__btn span {
+  font-family: var(--second-family);
+  font-style: italic;
+  font-weight: 600;
+  font-size: 27px;
+  color: #fff;
+}
+
+/* MAIN */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Центрируем содержимое */
+  text-align: center;
+  padding: 20px;
+  max-width: 400px; /* Ограничиваем ширину, как в Instagram */
+  margin: auto; /* Центрируем по горизонтали */
+}
+
+/* Хедер профиля (Username + Edit button) */
+.profileHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 10px; /* Отступ между именем и кнопкой */
+}
+
+/* Имя пользователя */
+.username {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Кнопка редактирования */
+.edit__btn {
+  background-color: transparent;
+  color: #0095f6;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.edit__btn:hover {
+  color: #0073cc;
+}
+
+/* Описание (bio) */
+.main__text {
+  margin-top: 10px; /* Отступ сверху */
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+}
+
